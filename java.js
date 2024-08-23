@@ -1,4 +1,4 @@
-for (let i = 0; i < 31; i++) {
+for (let i = 1; i < 31; i++) {
     const item = i;
     let fizz = "";
     let buzz = "";
