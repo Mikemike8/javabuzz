@@ -6,7 +6,9 @@ for (let i = 1; i < 31; i++) {
 
     if (item % 3 === 0) {
         fizz = "fizz";
-    } else if (item % 5 === 0) {
+    }  
+    
+    if (item % 5 === 0) {
         buzz = "buzz";
     }
     console.log(fizz + buzz  || item);
